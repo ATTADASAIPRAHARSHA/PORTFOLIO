@@ -1,0 +1,110 @@
+.technologies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.techheader>h1 {
+    background: linear-gradient(180deg,rgb(201, 162, 129),rgba(96, 95, 95, 0.2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 90px;
+    font-weight: 500;
+    color: transparent;
+    animation: oppa;
+    animation-timeline: view(auto auto);
+}
+@keyframes oppa {
+    from{
+        opacity: 0;
+        /* transform: translateY(10px); */
+
+    }
+    to{
+        opacity: 1;
+        /* transform: translateY(0); */
+    }
+    
+}
+
+.techcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.tech {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-between; */
+    column-gap: 50px;
+    row-gap: 30px;
+    margin: 5px;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5px;
+    position: relative;
+}
+
+.techcard {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(210, 207, 203);
+    position: relative;
+    z-index: 8;
+}
+
+.techcontent {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.techimg {
+    height: 70px;
+    cursor: pointer;
+}
+
+.techimg:hover {
+    height: 75px;
+}
+.techcover{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(156, 141, 122);
+    border-radius: 10px;
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.techcover img{
+    width: 50%;
+    height: 50%;
+}
+#next{
+    height: 30%;
+}
+.techcard{
+    transform: scale(1);
+    transition: all 1s;
+}
+.techcard:hover .techcover{
+    height: 30px;
+}
+.techcard:hover .techcover img{
+    display: none;
+}
+.techcard:hover {
+    transform: scaleY(1.1)
+}

@@ -1,0 +1,28 @@
+.header{
+    color: white;
+    margin: 0;
+    padding: 0;
+    z-index: 7;
+    position: relative;
+ }
+ .navlist ul{
+     display: flex;
+     list-style-type: none;
+     font-size: 25px;
+     justify-content: space-around;
+     align-items: center;
+    margin:0;
+ }
+ .navlist li{
+     background: none;
+     padding: 10px;
+     transition: all 1s;
+     border-radius: 5px;
+     
+ }
+ .navlist li a{
+     cursor: pointer;
+     text-decoration: none;
+     color: #d0c6b8;
+     font-size: 40px;
+ }

@@ -1,0 +1,26 @@
+.name{
+    background: linear-gradient(180deg,rgb(201, 162, 129),rgb(0, 0, 0,0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 90px;
+    font-weight: 500;
+    animation: opacity;
+    animation-timeline: view(auto 30%);
+    color: transparent;
+
+}
+.Homecontainer{
+    position: relative;
+}
+
+
+
+@keyframes opacity {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+    
+}

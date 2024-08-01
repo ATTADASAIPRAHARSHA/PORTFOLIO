@@ -1,0 +1,34 @@
+{
+    "btech":{
+        "course":"B.TECH (CSE)",
+        "tag":"@Vignan's Institute of Information Technology",
+        "duration":"2022-2026",
+        "content":"I am currently enrolled at Vignan's Institute of Information Technology, located in Visakhapatnam (Vizag), where I am pursuing a Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE). As a student at Vignan's, I am actively engaged in learning the fundamentals and advanced concepts of computer science, preparing myself for a dynamic career in the ever-evolving field of technology.",
+        "link":"https://vignaniit.edu.in/"
+    },
+    "intermediate": {
+            "course": "SENIOR SECONDARY EDUCATION",
+            "tag": "@Narayana Junior College",
+            "duration": "2020-2022",
+            "content": "I completed my intermediate education at Narayana Junior College, located in Filmnagar , Hyderabad. During my time at Narayana, I focused on a rigorous curriculum that prepared me for higher education in engineering. The college provided a strong foundation in various subjects, equipping me with the necessary skills and knowledge to pursue a Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE).",
+            "link": "https://www.narayanagroup.com/"
+        },
+            "high_school": {
+                "course": "SECONDARY EDUCATION",
+                "tag": "@Narayana Olympiad",
+                "duration": "2017-2020",
+                "content": "I completed my high school education from 6th to 10th grade at Narayana Olympiad. During these formative years, I was immersed in a rigorous academic environment that emphasized excellence in various subjects. The curriculum at Narayana Olympiad helped me develop strong analytical skills, a deep understanding of core concepts, and a passion for academic achievement.",
+                "link": "https://www.narayanagroup.com/"
+            },
+            "school": {
+                "course": "PRIMARY EDUCATION",
+                "tag": "@Global Erudite",
+                "duration": "2010-2017",
+                "content": "I completed my early school education from 1st to 7th grade at Global Erudite. During these crucial years, I received a well-rounded education that fostered my intellectual growth and curiosity. The supportive and stimulating environment at Global Erudite helped me build a strong academic foundation and develop essential skills that have been instrumental in my educational journey.",
+                "link": "https://www.globalerudite.com/"
+            }
+        
+        
+        
+    
+}

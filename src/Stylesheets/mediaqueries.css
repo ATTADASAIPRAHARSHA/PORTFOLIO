@@ -1,0 +1,166 @@
+@media (max-width:1400px) {
+    
+    .cover{
+        top: -250px;
+        left: -70px;
+        width: 1000px;
+        height: 900px;
+    }
+    
+}
+@media (max-width:1200px) {
+    .section1{
+        width: 70%;
+    }
+    
+    .ring img{
+        height: 450px;
+        width:  450px;
+    }
+    .swrod{
+        left: 27%;
+        top: 54px;
+    }
+    .navlist li a{
+        font-size: 25px;
+    }
+    .logo img{
+        height: 70px;
+        width: 200px;
+    }
+    .swrod img{
+        height: 330px;
+        width:  330px;
+    }
+    .circle{
+        left: 0%;
+    }
+    .name{
+        font-size: 60px;
+    }
+    .social{
+        gap:15px;
+    }
+    
+}
+@media (max-width:1000px) {
+    .section1{
+        font-size: 25px;
+    }
+    .projectimg img{
+        transform: translateX(0);
+        height: 260px;
+        width: 450px;
+    }
+    .project1{
+        flex-direction: column;
+    }
+    .info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        width: 60vw;
+    }
+    
+    .projectscontainer{
+        padding: 0;
+    }
+    .cover{
+        top: -250px;
+        left: -45px;
+        width: 680px;
+        height: 900px;
+    }
+    .headings{
+        font-size: 75px;
+    }
+    .content{
+        font-size: 26px;
+    }
+    .techcard {
+        width: 200px;
+        height: auto;
+    }
+}
+@media (max-width:850px) {
+    .social img{
+        width: 30px;
+        height: 30px;
+    }
+    .prodesc{
+        font-size: 25px;
+    }
+    .swrods{
+        height: 400px;
+    }
+    .ring{
+        left: 23.5%;
+    }
+    .swrod{
+        left: 30%;
+        top: 50px;
+    }
+    .circle{
+        width: 600px;
+    }
+    .projectscontainer{
+        margin: 20px 0px;
+    }
+    .cover {
+        top: -190px;
+        left: -55px;
+        width: 590px;
+        height: 640px;
+    }
+    .letter{
+        width: 500px;
+        left: -140px;
+    }
+    .footer{
+        font-size: 27px;
+    }
+    .swrod img{
+        height: 290px;
+        width:  290px;
+    }
+    .ring img{
+        height: 400px;
+        width:  400px;
+    }
+    .project1{
+        margin: 10px 0;
+    }
+    .section1{
+        font-size: 20px;
+    }
+    form label{
+        font-size: 24px;
+    }
+    form input{
+        width: 200px;
+    }
+    form textarea{
+        width: 200px;
+    }
+    .navlist li a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:750px) {
+    .cover{
+        top: -190px;
+        width: 480px;
+    }
+    .section1{
+        font-size: 17px;
+    }
+    .ring{
+        left: 21%;
+    }
+    .name{
+        font-size: 50px;
+    }
+}

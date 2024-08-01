@@ -1,0 +1,150 @@
+.contactsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 10px 50px;
+    padding: 10px 50px;
+}
+.section1{
+    position: relative;
+    text-align: start;
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    margin: 300px 90px;
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+    z-index: 10;
+    width: 50%;
+}
+
+.divcover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 950px;
+    background-image: url('/cover.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cover{
+    position: absolute;
+    top: -200px;
+    left: -60px;
+    width: 1200px;
+    height: 700px;
+    z-index: 1;
+}
+
+.section1 div{
+    position: relative;
+    z-index: 10;
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+.royal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
+.royal img{
+        width: 500px;
+        height: 450px;
+        border-radius: 20px;
+}
+.section2 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    z-index: 6;
+    margin-top: 100px;
+    font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+form input{
+    width:270px;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    z-index: 6;
+    border-radius: 10px;
+}
+form textarea{
+    width: 270px;
+    height: 200px;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    z-index: 6;
+    border-radius: 10px;
+}
+form label{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    place-items: start;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    z-index: 6;
+}
+
+form button{
+    font-size: 25px;
+    padding: 5px;
+    position: relative;
+    z-index: 6;
+    border-radius: 10px;
+    font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    z-index: 6;
+}
+.letter{
+    position: absolute;
+    top: -120px;
+    z-index: 1;
+    width: 700px;
+    height: 800px;
+    left: -200px;
+}
+
+.resumesection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.resumesection button {
+    height: 100%;
+    width: auto;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(188, 168, 142);
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.resumesection  a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}

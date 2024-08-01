@@ -1,0 +1,60 @@
+.about{
+    margin-top: 50px;
+    padding: 50px;
+ }
+ .aboutme {
+     text-align: center;
+     color: white;
+ }
+ .infohead {
+     background: linear-gradient(180deg,rgb(201, 162, 129),rgba(96, 95, 95, 0.2));
+     -webkit-background-clip: text;
+     background-clip: text;
+     font-size: 90px;
+     font-weight: 500;
+     color: transparent;
+     animation: oppa;
+     animation-timeline: view(auto auto);
+ }
+ .info {
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 20px;
+     justify-content: space-around;
+ }
+ .content {
+     margin: 20px;
+     padding: 5px;
+     width: 50vw;
+     font-family: serif;
+     font-size: 30px;
+     text-align: justify;
+     animation: rightopa;
+     animation-timeline: view(50% auto);
+ }
+ 
+ .img {
+     width: 20vw;
+     padding: 5px;
+     margin: 5px;
+     position: relative;
+     z-index: 10;
+ }
+ 
+ .perimg {
+     width: 100%;
+     position: relative;
+     border-radius: 50%;
+     z-index: 9;
+ }
+ 
+ @keyframes rightopa {
+     from{
+         transform: translateX(80px);
+         opacity: 0;
+     }
+     to{
+         transform: translateX(0px);
+         opacity: 1;
+     }
+ }

@@ -1,0 +1,45 @@
+[
+    {
+        "title": "Epicueran-Divine",
+        "Desc": "Epicurean Divine is a sophisticated meal planning and recipe discovery web application designed to enhance the culinary experience of users. This project leverages the Spoonacular API to generate personalized meal plans, providing users with diverse and nutritious recipes tailored to their dietary preferences and restrictions.",
+        "key": [
+          "Personalized Meal Plans: Users can receive meal plans customized to their dietary needs, preferences, and nutritional goals.",
+          "Extensive Recipe Database: Access to a vast collection of recipes from the Spoonacular database, ensuring a wide variety of meal options.",
+          "User-Friendly Interface: A clean and intuitive interface that makes navigating through recipes and meal plans seamless and enjoyable.",
+          "Nutritional Information: Detailed nutritional information for each recipe, helping users make informed dietary choices.",
+          "Advanced Search Options: Powerful search functionality to find recipes based on ingredients, dietary restrictions, cuisine types, and more.",
+          "Favorites and History: Users can save their favorite recipes and keep track of their cooking history for easy reference."
+        ],
+        "image": "recipe",
+        "Stacks": [
+            "React.js",
+            "Firebase Authentication",
+            "Spoonacular API",
+            "CSS for styling",
+            "HTML5",
+            "JavaScript (ES6+)",
+            "Axios for API calls"
+        ]
+      },
+      {
+        "title": "TaskMaster Pro",
+        "Desc": "TaskMaster Pro is a robust and stylish to-do list application designed to help users efficiently manage their tasks and notes. This project features advanced functionality for creating, editing, deleting, and organizing notes, all with a sleek and user-friendly interface. It leverages local storage to ensure that users' data is saved securely and can be accessed anytime.",
+        "key": [
+          "Create Tasks: Users can easily create new tasks and notes with just a few clicks.",
+          "Edit Tasks: Users have the ability to edit existing tasks, ensuring their notes are always up-to-date.",
+          "Delete Tasks: Tasks can be effortlessly deleted, allowing users to keep their to-do list clean and organized.",
+          "User-Friendly Interface: An intuitive interface with smooth transitions and animations, making task management enjoyable.",
+          "Local Storage: Utilizes local storage to securely save tasks, ensuring data persistence even after closing the browser.",
+          "Organized View: Tasks are displayed in a clear and organized manner, making it easy for users to track their progress."
+        ],
+        "image": "todo",
+        "Stacks": [
+          "HTML5",
+          "CSS for styling",
+          "JavaScript (ES6+)",
+          "Local Storage"
+        ]
+      }
+      
+    
+]

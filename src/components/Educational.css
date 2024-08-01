@@ -1,0 +1,67 @@
+.education {
+    margin: 5px;
+    padding: 50px;
+    margin-bottom: 2vw;
+}
+
+.eduheader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.eduplace {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 70%;
+    padding: 15px;
+    background: linear-gradient(180deg,rgb(221, 193, 156) ,  rgb(121, 111, 98));
+    transform-style: preserve-3d;
+    opacity: 0.6;
+    transition: all 1s;
+    
+}
+
+.eduplace:hover{
+    opacity: 1;
+}
+
+
+ .educontent {
+    display: flex;
+    column-gap: 15px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.institutelink {
+    width: 40px;
+}
+
+.institute {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.cardheader {
+    display: flex;
+    column-gap: 3px;
+    font-size: 35px;
+    justify-content: space-between;
+    padding: 5px;
+}
+.course{
+    text-align: start;
+}
+.course>span {
+    text-decoration: underline;
+}
+
+.tag {
+    font-size: 20px;
+    text-decoration: none;
+}
