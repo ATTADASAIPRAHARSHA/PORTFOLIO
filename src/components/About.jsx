@@ -19,11 +19,11 @@ const About = () => {
                             <div style={style}  className="circle"></div>
                         </div>
                     </div>
-                    <div className="content">Greetings! I am ATTADA SAI PRAHARSHA, a sovereign in the realm of Full Stack Web Development and coding, with a formidable command over both front-end and back-end technologies. With hands-on experience in constructing dynamic and responsive web applications, I revel in the art of transforming complex challenges into elegant, user-friendly solutions. Through my participation in numerous hackathons and prestigious internships, including a distinguished tenure at Motion Cut, I have perfected my skills in crafting e-commerce websites, landing pages, and a multitude of web projects.
+                    <div className="content">Greetings! I am ATTADA SAI PRAHARSHA, the sovereign of Full Stack Web Development, ruling over both front-end and back-end realms with unmatched prowess. With a flick of my wrist and the mightiest of keystrokes, I conjure dynamic and responsive web applications from the digital ether, turning labyrinthine challenges into elegant, user-friendly masterpieces faster than you can say "404 error."
                         <br></br>
                         <br></br>
                         <br></br>
-                    Ever vigilant in my pursuit of knowledge and new challenges, I endeavor to deliver work of the highest quality, meeting the exacting standards of users and clients alike. Let us join forces and create something truly extraordinary together!
+                        Forever on a quest for knowledge and daring exploits, I strive to deliver work that meets the exacting standards of discerning users and clients. So, grab your virtual quill and parchment, and let us create something legendary—and share a few laughs along the way!
                     </div>
                 </div>
             </div>
