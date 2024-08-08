@@ -18,8 +18,8 @@
         width:  450px;
     }
     .swrod{
-        left: 27%;
-        top: 54px;
+        left: 29%;
+        top: 56px;
     }
     .navlist li a{
         font-size: 25px;
@@ -170,5 +170,80 @@
     }
     .name{
         font-size: 50px;
+    }
+}
+@media (max-width:605px) {
+    .img .circle{
+        left: -80%;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .social img{
+        width: 30px;
+        height: 30px;
+    }
+    .prodesc{
+        font-size: 25px;
+    }
+    .swrods{
+        height: 400px;
+    }
+    .ring{
+        left: 23.5%;
+    }
+    .swrod{
+        left: 33%;
+        top: 50px;
+    }
+    .circle{
+        width: 450px;
+        height: 450px;
+    }
+    .projectscontainer{
+        margin: 20px 0px;
+    }
+    .cover {
+        top: -190px;
+        left: -55px;
+        width: 590px;
+        height: 640px;
+    }
+    .letter{
+        width: 500px;
+        left: -140px;
+    }
+    .footer{
+        font-size: 27px;
+    }
+    .swrod img{
+        height: 250px;
+        width:  250px;
+    }
+    .ring img{
+        height: 350px;
+        width:  350px;
+    }
+    .project1{
+        margin: 10px 0;
+    }
+    .section1{
+        font-size: 20px;
+    }
+    form label{
+        font-size: 24px;
+    }
+    form input{
+        width: 200px;
+    }
+    form textarea{
+        width: 200px;
+    }
+    .navlist li a {
+        font-size: 20px;
+    }
+    .contactsection{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 50px 1fr;
     }
 }

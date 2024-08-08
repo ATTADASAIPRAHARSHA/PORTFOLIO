@@ -6,7 +6,7 @@ const About = () => {
         height:'400px',
         width:'400px',
         top:'20%',
-        left:'-20%'
+        
     }
   return (
     <div className="about">

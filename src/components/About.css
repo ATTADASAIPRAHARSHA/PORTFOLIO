@@ -47,6 +47,9 @@
      border-radius: 50%;
      z-index: 9;
  }
+ .img .circle{
+    left: -20%;
+ }
  
  @keyframes rightopa {
      from{
