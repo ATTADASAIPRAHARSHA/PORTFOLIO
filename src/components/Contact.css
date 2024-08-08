@@ -1,4 +1,4 @@
-.contactsection{
+/* .contactsection{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,12 +62,13 @@
         width: 500px;
         height: 450px;
         border-radius: 20px;
-}
-.section2 form{
+} */
+form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+    align-items: center;
     position: relative;
     z-index: 6;
     margin-top: 100px;
@@ -76,15 +77,18 @@
   font-style: normal;
 }
 form input{
-    width:270px;
+    width: 350px;
     font-size: 20px;
-    padding: 10px;
+    padding: 5px;
     position: relative;
     z-index: 6;
     border-radius: 10px;
+    font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
 }
 form textarea{
-    width: 270px;
+    width: 350px;
     height: 200px;
     font-size: 20px;
     padding: 10px;
@@ -93,11 +97,12 @@ form textarea{
     border-radius: 10px;
 }
 form label{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     place-items: start;
-    color: white;
-    font-size: 30px;
+    color: rgb(201, 162, 129);
+    font-size: 25px;
     position: relative;
     z-index: 6;
 }
@@ -112,23 +117,43 @@ form button{
   font-weight: 300;
   font-style: normal;
 }
-.message{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.contactsection{
+    display: grid;
+    grid-template-columns: 10fr 1fr 10fr;
+    margin: 10px 60px;
+    place-items: center;
+    gap: 10px;
+    background-size: 450px 450px;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
-    z-index: 6;
 }
-.letter{
+.contactsection::before {
+    content: '';
     position: absolute;
-    top: -120px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-size: inherit;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    filter:  grayscale(0%); 
     z-index: 1;
-    width: 700px;
-    height: 800px;
-    left: -200px;
+}
+.con{
+    padding-left: 10px;
+    font-size: 30px;
+    color: rgb(201, 162, 129);
+    text-align: start;
+    position: relative;
+    z-index: 4;
+    backdrop-filter: blur(2px);
 }
 
 .resumesection{
+   
     display: flex;
     flex-direction: column;
     align-items: center;
