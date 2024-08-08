@@ -20,13 +20,13 @@
     background: linear-gradient(180deg,rgb(221, 193, 156) ,  rgb(121, 111, 98));
     transform-style: preserve-3d;
     opacity: 0.6;
-    transition: opacity 1s;
+    transition: all 1s;
     
 }
 
 .eduplace:hover{
     opacity: 1;
-    box-shadow: 0 0 30px rgb(221, 193, 156);
+    box-shadow: 0 0 20px rgb(221, 193, 156);
 }
 
 

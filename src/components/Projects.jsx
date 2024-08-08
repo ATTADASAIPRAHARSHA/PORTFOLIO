@@ -12,6 +12,7 @@ const Projects = () => {
       {
         ref.current.style.opacity = '1';
         ref.current.style.visibility = 'visible';
+        document.body.style.overflow = 'hidden';
       }
   }
   const handledisplayclose =()=>{
@@ -19,6 +20,7 @@ const Projects = () => {
     {
       ref.current.style.opacity = '0'
       ref.current.style.visibility = 'hidden'
+      document.body.style.overflow = 'auto';
     }
     
   }

@@ -72,7 +72,7 @@ form{
     position: relative;
     z-index: 6;
     margin-top: 100px;
-    font-family: "Kalam", cursive;
+    /* font-family: "Kalam", cursive; */
   font-weight: 300;
   font-style: normal;
 }
@@ -83,9 +83,14 @@ form input{
     position: relative;
     z-index: 6;
     border-radius: 10px;
-    font-family: "Kalam", cursive;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Cinzel Decorative",serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    background-color: rgb(181, 160, 133);
+}
+.username input{
+    text-transform: uppercase;
 }
 form textarea{
     width: 350px;
@@ -95,6 +100,7 @@ form textarea{
     position: relative;
     z-index: 6;
     border-radius: 10px;
+    background-color: rgb(181, 160, 133);
 }
 form label{
     display: flex;
@@ -104,6 +110,7 @@ form label{
     color: rgb(201, 162, 129);
     font-size: 25px;
     position: relative;
+    font-family: "Cinzel Decorative",serif;
     z-index: 6;
 }
 
@@ -126,7 +133,8 @@ form button{
     background-size: 450px 450px;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
+    position: relative;  
+      
 }
 .contactsection::before {
     content: '';
@@ -144,12 +152,15 @@ form button{
 }
 .con{
     padding-left: 10px;
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(201, 162, 129);
-    text-align: start;
+    text-align: justify;
     position: relative;
     z-index: 4;
     backdrop-filter: blur(2px);
+    font-family: "Cinzel Decorative",serif;
+        /* font-weight: 400; */
+        font-style: normal;
 }
 
 .resumesection{
@@ -169,6 +180,7 @@ form button{
     font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
 }
+
 .resumesection  a{
     color: rgb(0, 0, 0);
     text-decoration: none;
