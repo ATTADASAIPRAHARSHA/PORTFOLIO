@@ -86,7 +86,7 @@ form input{
     font-family: "Cinzel Decorative",serif;
     font-weight: 700;
     font-style: normal;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: rgb(181, 160, 133);
 }
 .username input{
@@ -101,6 +101,9 @@ form textarea{
     z-index: 6;
     border-radius: 10px;
     background-color: rgb(181, 160, 133);
+    font-family: "Cinzel Decorative",serif;
+    font-weight: 510;
+    font-style: normal;
 }
 form label{
     display: flex;
@@ -127,7 +130,7 @@ form button{
 .contactsection{
     display: grid;
     grid-template-columns: 10fr 1fr 10fr;
-    margin: 10px 60px;
+    margin: 40px 60px;
     place-items: center;
     gap: 10px;
     background-size: 450px 450px;

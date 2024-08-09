@@ -9,6 +9,22 @@
     
 }
 @media (max-width:1200px) {
+    .projectdisplay {
+        height: 60vh;
+        width: 80%;
+        left: 1%;
+        right: 1%;
+        top: 5%;
+        bottom: 5%;
+    }
+    .imgpro img {
+        border-radius: 10px;
+        height: 280px;
+        width: 440px;
+    }
+    .prodesc{
+        font-size:25px ;
+    }
     .section1{
         width: 70%;
     }
@@ -26,7 +42,7 @@
     }
     .logo img{
         height: 70px;
-        width: 200px;
+        width: 150px;
     }
     .swrod img{
         height: 330px;
@@ -44,6 +60,12 @@
     
 }
 @media (max-width:1000px) {
+    .cardheader{
+        font-size: 25px;
+    }
+    .techcontent {
+        font-size: 0.9rem;
+    }
     .section1{
         font-size: 25px;
     }
@@ -73,7 +95,7 @@
         width: 680px;
         height: 900px;
     }
-    .headings{
+    .headings , .techheader>h1{
         font-size: 75px;
     }
     .content{
@@ -87,8 +109,38 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 50px 1fr;
     }
+    .projectdisplay {
+        height: 60vh;
+        width: 80%;
+        left: 1%;
+        right: 1%;
+        top: 5%;
+        bottom: 5%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 4fr 1fr;
+        overflow-y: scroll;
+    }
+    .imgpro img {
+        border-radius: 10px;
+        height: 280px;
+        width: 440px;
+    }
+    .prodesc{
+        font-size:25px ;
+    }
+    .sec2{
+        
+        overflow-y: visible;
+    }
 }
 @media (max-width:850px) {
+    .projectimg img {
+        height: 230px;
+        width: 400px;
+    }
+    .techcontent {
+        font-size: 0.7rem;
+    }
     .social img{
         width: 30px;
         height: 30px;
@@ -108,6 +160,7 @@
     }
     .circle{
         width: 600px;
+        height: 600px;
     }
     .projectscontainer{
         margin: 20px 0px;
@@ -143,10 +196,10 @@
         font-size: 24px;
     }
     form input{
-        width: 200px;
+        width: 300px;
     }
     form textarea{
-        width: 200px;
+        width: 300px;
     }
     .navlist li a {
         font-size: 20px;
@@ -154,6 +207,15 @@
     .contactsection{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 50px 1fr;
+    }
+    .headings ,.techheader>h1{
+        font-size: 60px;
+    }
+    .con{
+        font-size: 22px;
+    }
+    .content {
+        font-size: 22px;
     }
 }
 
