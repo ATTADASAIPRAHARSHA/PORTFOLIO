@@ -1,5 +1,5 @@
 import React from 'react'
-import './Contact.css'
+import '../Stylesheets/Contact.css'
 import Resume from './Resume'
 
 const Contact = () => {

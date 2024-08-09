@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './Home.css'
+import '../Stylesheets/Home.css'
 import HomeBackground from '../Backgrounds/HomeBackground'
 import About from './About.jsx'
 import TechStack from './TechStack.jsx'

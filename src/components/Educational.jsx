@@ -1,5 +1,5 @@
 import React from 'react'
-import './Educational.css'
+import '../Stylesheets/Educational.css'
 import Educationcard from '../Cards/Educationcard'
 import edudata from '../Education.json'
 

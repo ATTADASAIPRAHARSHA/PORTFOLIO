@@ -1,5 +1,5 @@
 import React from 'react'
-import './TechStack.css'
+import '../Stylesheets/TechStack.css'
 import Techcard from '../Cards/Techcard'
 
 const TechStack = () => {

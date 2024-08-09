@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css';
+import '../Stylesheets/Header.css';
 
 const Header = () => {
   const handleAboutScroll = (className) => {
