@@ -17,7 +17,7 @@ const Header = () => {
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><a href="#about" onClick={()=>handleAboutScroll('about')}>About</a></li>
-            <li><div className="logo"><img src="/file.png" width={230} height={100} alt="logo" /></div></li>
+            <li><div className="logo"><img src="/file.png" width={120} height={55} alt="logo" /></div></li>
             <li><a href="#projects" onClick={()=>handleAboutScroll('project')}>Projects</a></li>
             <li><a href="#contact" onClick={()=>handleAboutScroll('contact')}>Contact</a></li>
           </ul>

@@ -23,7 +23,7 @@
 }
 .projectdisplay{
   height: 80vh;
-  width: 80%;
+  /* width: 80%; */
   margin: 50px;
   border-radius: 20px;
   background-color: rgb(131, 113, 99);
@@ -53,8 +53,8 @@
 margin: 10px 0;
 }
 .projectimg img {
-height: 300px;
-width: 500px;
+height: 250px;
+width: 400px;
 border-radius: 10px;
 position: relative;
 z-index: 10;
@@ -138,14 +138,14 @@ border-radius: 20px;
 }
 .prodesc{
   color: rgb(255, 255, 255);
-  font-size: 30px;
+  font-size: 20px;
   text-align: justify;
 }
 .headings{
 background: linear-gradient(180deg,rgb(201, 162, 129),rgba(96, 95, 95, 0.2));
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: 90px;
+  font-size: 78px;
   font-weight: 500;
   color: transparent;
   animation: oppa;

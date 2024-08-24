@@ -9,7 +9,7 @@
     background: linear-gradient(180deg,rgb(201, 162, 129),rgba(96, 95, 95, 0.2));
     -webkit-background-clip: text;
     background-clip: text;
-    font-size: 90px;
+    font-size: 78px;
     font-weight: 500;
     color: transparent;
     animation: oppa;
@@ -51,8 +51,7 @@
 .techcard {
     border: 1px solid black;
     border-radius: 10px;
-    width: 250px;
-    height: 250px;
+    width: 200px;
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -64,7 +63,7 @@
 }
 
 .techcontent {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
 }
 

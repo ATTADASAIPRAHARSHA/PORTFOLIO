@@ -10,7 +10,7 @@
      background: linear-gradient(180deg,rgb(201, 162, 129),rgba(96, 95, 95, 0.2));
      -webkit-background-clip: text;
      background-clip: text;
-     font-size: 90px;
+     font-size: 78px;
      font-weight: 500;
      color: transparent;
      animation: oppa;
@@ -27,7 +27,7 @@
      padding: 5px;
      width: 50vw;
      font-family: serif;
-     font-size: 30px;
+     font-size: 25px;
      text-align: justify;
      animation: rightopa;
      animation-timeline: view(50% auto);

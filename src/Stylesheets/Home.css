@@ -2,7 +2,7 @@
     background: linear-gradient(180deg,rgb(201, 162, 129),rgb(0, 0, 0,0));
     -webkit-background-clip: text;
     background-clip: text;
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 500;
     animation: opacity;
     animation-timeline: view(auto 30%);

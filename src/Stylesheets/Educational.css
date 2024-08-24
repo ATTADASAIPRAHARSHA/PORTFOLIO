@@ -33,7 +33,7 @@
  .educontent {
     display: flex;
     column-gap: 15px;
-    font-size: 20px;
+    font-size: 17px;
     padding: 10px;
     text-align: justify;
 }
@@ -52,7 +52,7 @@
 .cardheader {
     display: flex;
     column-gap: 3px;
-    font-size: 35px;
+    font-size: 30px;
     justify-content: space-between;
     padding: 5px;
 }
