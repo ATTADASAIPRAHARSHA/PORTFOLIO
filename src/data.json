@@ -39,6 +39,17 @@
           "JavaScript (ES6+)",
           "Local Storage"
         ]
+      },
+      {
+        "title": "Port folio",
+        "Desc": "My Portfolio is a stylish web application that showcases my projects and skills. It features an intuitive design with sections for my work, experience, and contact details. The portfolio is responsive and built with modern web technologies, providing a visually appealing presentation of my professional journey.",
+        "image": "port",
+        "Stacks": [
+          "HTML5",
+          "CSS for styling",
+          "JavaScript (ES6+)",
+          "React Js"
+        ]
       }
       
     

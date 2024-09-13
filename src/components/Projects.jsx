@@ -53,12 +53,16 @@ const Projects = () => {
           </div>
           <div className="sec2">
             <div className="prodesc">{Project.Desc}</div>
+          { Project.key &&
+          <div>
             <div className="keyheader">Key Features :</div>
             <div className="prokey">{
             Project.key.map((item,index)=>(
               <div className='key' key={index}><span style={{color:'black',fontWeight:'500'}}>{index+1}.</span>  {item}</div>
             ))
             }</div>
+          </div>
+}
             <div className="keyheader">Technologies used :</div>
             <div className="prokey">{
             Project.Stacks.map((item,index)=>(

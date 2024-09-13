@@ -37,6 +37,7 @@
   grid-template-columns: 1fr 1fr;
   padding: 50px 30px;
   transition: all 1s;
+  margin: 10px;
 }
 .project1{
   transition: all 1s;

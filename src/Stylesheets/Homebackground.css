@@ -53,15 +53,15 @@
 }
 .ring{
     position: absolute;
-    top: 15px;
-    left: 23.4%;
+    top: 19px;
+    left: 26.5%;
     filter: brightness(98%)  contrast(1.3);
     animation: motion 5s  linear 0s 1 forwards ;
 }
 .swrod{
     position: absolute;
     top: 53px;
-    left: 29.2%;
+    left: 32%;
     filter: brightness(98%)  contrast(1.3);
     animation: motion 2s  linear 0s 1 forwards ;
 }

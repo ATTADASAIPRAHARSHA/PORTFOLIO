@@ -9,21 +9,14 @@
     
 }
 @media (max-width:1200px) {
-    .projectdisplay {
-        height: 60vh;
-        width: 80%;
-        left: 1%;
-        right: 1%;
-        top: 5%;
-        bottom: 5%;
-    }
+    
     .imgpro img {
         border-radius: 10px;
         height: 280px;
         width: 440px;
     }
     .prodesc{
-        font-size:25px ;
+        font-size:22px ;
     }
     .section1{
         width: 70%;
@@ -57,9 +50,22 @@
     .social{
         gap:15px;
     }
-    
+    .project1{
+        flex-direction: column;
+    }
+    .projectimg img{
+        transform: translateX(0);
+        height: 280px;
+        width: 470px;
+    }
+    .key{
+        font-size: 22px;
+    }
 }
 @media (max-width:1000px) {
+    .key{
+        font-size: 19px;
+    }
     .cardheader{
         font-size: 25px;
     }
@@ -110,10 +116,9 @@
         grid-template-rows: 1fr 50px 1fr;
     }
     .projectdisplay {
-        height: 60vh;
+        height: 80vh;
         width: 80%;
-        left: 1%;
-        right: 1%;
+        left: 5%;
         top: 5%;
         bottom: 5%;
         grid-template-columns: 1fr;

@@ -8,9 +8,9 @@ const TechStack = () => {
     css : 'I Excelled in crafting responsive and visually appealing user interfaces using advanced CSS features like flexbox, grid layout, and animations.',
     js : 'I Excelled in developing dynamic and interactive web applications, adept at manipulating the DOM, handling asynchronous operations, and writing clean, modular code.',
     react :'I Excelled in building scalable and efficient front-end applications with React.js, proficient in component-based architecture, state management, and optimizing performance.',
-    nextjs :'Experienced with Next.js, a React framework for building SSR and SSG web apps. Skilled in performance optimization through automatic code splitting and server-side rendering. Dedicated to staying current with Next.js advancements for efficient web development.',
-    expressjs :'I am proficient in Express.js, with practical experience in developing RESTful APIs and web applications. I excel in handling GET, POST, DELETE requests, and performing CRUD operations to manage data effectively.',
-    nodejs:'I have strong knowledge of Node.js, enabling me to build scalable and efficient server-side applications. My experience includes working with asynchronous programming, managing server-side logic, and integrating various modules to enhance functionality.'
+    nextjs :'Experienced with Next.js, a React framework for building SSR and SSG web apps. Skilled in performance optimization through automatic code splitting and server-side rendering.',
+    expressjs :'Proficient in Express.js, with experience in developing RESTful APIs and web applications, handling GET, POST, DELETE requests, and performing CRUD operations.',
+    nodejs:'Strong knowledge of Node.js, with experience in building scalable server-side applications, handling asynchronous programming, and integrating modules for enhanced functionality.'
     }
     
   return (
