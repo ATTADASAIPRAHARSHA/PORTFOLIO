@@ -2,12 +2,14 @@
     background: linear-gradient(180deg,rgb(201, 162, 129),rgb(0, 0, 0,0));
     -webkit-background-clip: text;
     background-clip: text;
-    font-size: 80px;
+    font-size: 95px;
     font-weight: 500;
     animation: opacity;
     animation-timeline: view(auto 30%);
     color: transparent;
-
+    font-family: "Cinzel Decorative", serif;
+    /* font-weight: 400; */
+    font-style: normal;
 }
 .Homecontainer{
     position: relative;

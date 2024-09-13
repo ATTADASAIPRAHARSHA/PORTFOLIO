@@ -63,6 +63,10 @@
     }
 }
 @media (max-width:1000px) {
+    .logo img{
+        height: 60px;
+        width: 120px;
+    }
     .key{
         font-size: 19px;
     }
@@ -139,6 +143,10 @@
     }
 }
 @media (max-width:850px) {
+    .logo img{
+        height: 50px;
+        width: 100px;
+    }
     .projectimg img {
         height: 230px;
         width: 400px;
@@ -188,8 +196,8 @@
         width:  290px;
     }
     .ring img{
-        height: 400px;
-        width:  400px;
+        height: 380px;
+        width:  380px;
     }
     .project1{
         margin: 10px 0;
@@ -233,18 +241,31 @@
         font-size: 17px;
     }
     .ring{
-        left: 21%;
+        left: 23%;
+    }
+    .swrod{
+        top: 55px;
     }
     .name{
         font-size: 50px;
     }
 }
 @media (max-width:605px) {
+    .name{
+        font-size: 35px;
+    }
     .img .circle{
         left: -80%;
     }
     .logo img{
-        width: 100px;
+        width: 60px;
+        height: 40px;
+    }
+    .upperlight{
+        height: 30px;
+    }
+    .navlist ul{
+        font-size: 20px;
     }
     .social img{
         width: 30px;
@@ -257,11 +278,14 @@
         height: 400px;
     }
     .ring{
-        left: 23.5%;
+        left: 24%;
     }
     .swrod{
-        left: 33%;
-        top: 50px;
+        left: 30.5%;
+        top: 55px;
+    }
+    .con {
+        font-size: 18px;
     }
     .circle{
         width: 450px;
@@ -288,8 +312,8 @@
         width:  250px;
     }
     .ring img{
-        height: 350px;
-        width:  350px;
+        height: 330px;
+        width:  330px;
     }
     .project1{
         margin: 10px 0;
@@ -301,16 +325,23 @@
         font-size: 24px;
     }
     form input{
-        width: 200px;
+        width: 250px;
     }
     form textarea{
-        width: 200px;
+        width: 250px;
     }
     .navlist li a {
         font-size: 20px;
     }
+    .headings, .techheader>h1 {
+        font-size: 50px;
+    }
     .contactsection{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 50px 1fr;
+    }
+    .techcover img {
+        width: 40%;
+        height: 50%;
     }
 }
