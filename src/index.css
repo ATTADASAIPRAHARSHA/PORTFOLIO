@@ -54,3 +54,21 @@ body{
       padding-right: 1rem;
   }
 } */
+ /* Webkit Browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(244, 225, 210,0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b89e8e; /* Medium brown thumb */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8a705e; /* Darker brown on hover */
+}
+

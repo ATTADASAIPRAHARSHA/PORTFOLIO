@@ -120,7 +120,7 @@
         grid-template-rows: 1fr 50px 1fr;
     }
     .projectdisplay {
-        height: 80vh;
+        height: 65%;
         width: 80%;
         left: 5%;
         top: 5%;
@@ -162,14 +162,14 @@
         font-size: 25px;
     }
     .swrods{
-        height: 400px;
+        height: 450px;
     }
     .ring{
         left: 23.5%;
     }
     .swrod{
-        left: 30%;
-        top: 50px;
+        left: 27%;
+        top: 42px;
     }
     .circle{
         width: 600px;
@@ -192,8 +192,8 @@
         font-size: 27px;
     }
     .swrod img{
-        height: 290px;
-        width:  290px;
+        height: 325px;
+        width:  325px;
     }
     .ring img{
         height: 380px;
@@ -230,6 +230,10 @@
     .content {
         font-size: 22px;
     }
+    .techcover img {
+        width: 40%;
+        height: 50%;
+    }
 }
 
 @media (max-width:750px) {
@@ -244,22 +248,45 @@
         left: 23%;
     }
     .swrod{
-        top: 55px;
+        top: 34px;
     }
     .name{
         font-size: 50px;
     }
+    .techcover img {
+        width: 40%;
+        height: 50%;
+    }
+    .headings , .techheader>h1{
+        font-size: 57px;
+    }
+    .con{
+        font-size: 18px;
+    }
+    .circle{
+        top: -20px;
+    }
 }
 @media (max-width:605px) {
+    .imgpro img {
+        border-radius: 10px;
+        height: 200px;
+        width: 300px;
+    }
+    .footer{
+        width: 95%;
+        gap: 15px;
+        padding: 10px;
+    }
     .name{
         font-size: 35px;
     }
     .img .circle{
-        left: -80%;
+        left: -85%;
     }
     .logo img{
-        width: 60px;
-        height: 40px;
+        width: 40px;
+        height: 30px;
     }
     .upperlight{
         height: 30px;
@@ -272,24 +299,25 @@
         height: 30px;
     }
     .prodesc{
-        font-size: 25px;
+        font-size: 20px;
     }
     .swrods{
-        height: 400px;
+        height: 280px;
     }
     .ring{
-        left: 24%;
+        left: 26%;
     }
     .swrod{
-        left: 30.5%;
-        top: 55px;
+        left: 29%;
+        top: 32px;
     }
     .con {
         font-size: 18px;
     }
     .circle{
-        width: 450px;
-        height: 450px;
+        width: 400px;
+        height: 400px;
+        top: -10px;
     }
     .projectscontainer{
         margin: 20px 0px;
@@ -300,20 +328,20 @@
         width: 590px;
         height: 640px;
     }
+    .swrod img{
+        height: 240px;
+        width:  240px;
+    }
+    .ring img{
+        height: 270px;
+        width:  270px;
+    }
     .letter{
         width: 500px;
         left: -140px;
     }
     .footer{
         font-size: 27px;
-    }
-    .swrod img{
-        height: 250px;
-        width:  250px;
-    }
-    .ring img{
-        height: 330px;
-        width:  330px;
     }
     .project1{
         margin: 10px 0;
@@ -331,10 +359,10 @@
         width: 250px;
     }
     .navlist li a {
-        font-size: 20px;
+        font-size: 17px;
     }
     .headings, .techheader>h1 {
-        font-size: 50px;
+        font-size: 47px;
     }
     .contactsection{
         grid-template-columns: 1fr;
@@ -343,5 +371,21 @@
     .techcover img {
         width: 40%;
         height: 50%;
+    }
+    .projectdisplay {
+        height: 64%;
+    }
+}
+@media (max-width:500px) {
+    .img .circle {
+        left: -200%;
+        height: 200px;
+        width: 200px;
+    }
+    .navlist ul{
+        visibility: hidden;
+    }
+    .logo{
+        visibility: visible;
     }
 }

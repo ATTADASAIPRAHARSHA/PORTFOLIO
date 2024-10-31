@@ -7,7 +7,7 @@ const HomeBackground = () => {
     <div className="yin">
         <div className="swrods">
           <div className="ring"><img src="rings.png" alt="" height={440} width={440} /></div>
-          <div className="swrod"><img src="sword.png" alt="" height={330} width={330} /></div>
+          <div className="swrod"><img src="sword.png" alt="" height={360} width={360} /></div>
         </div>
         <div className="circle"></div>
     </div>

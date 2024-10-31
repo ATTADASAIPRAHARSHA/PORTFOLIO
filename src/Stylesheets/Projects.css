@@ -22,10 +22,10 @@
   margin-bottom: 20px;
 }
 .projectdisplay{
-  height: 80vh;
+  height: 80%;
   /* width: 80%; */
   margin: 50px;
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: rgb(131, 113, 99);
   position: fixed;
   top: 0;
