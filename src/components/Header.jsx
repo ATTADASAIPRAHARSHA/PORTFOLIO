@@ -14,13 +14,14 @@ const Header = () => {
     <>
       <div className="header">
         <div className="navlist">
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><a href="#about" onClick={()=>handleAboutScroll('about')}>About</a></li>
+          <ul className="nav-menu">
+            <li><Link className="nav-link" to="/">Home <span className="underline"></span></Link></li>
+            <li><a className="nav-link" href="#about" onClick={() => handleAboutScroll('about')}>About <span className="underline"></span></a></li>
             <li><div className="logo"><img src="/file.png" width={120} height={55} alt="logo" /></div></li>
-            <li><a href="#projects" onClick={()=>handleAboutScroll('project')}>Projects</a></li>
-            <li><a href="#contact" onClick={()=>handleAboutScroll('contact')}>Contact</a></li>
+            <li><a className="nav-link" href="#projects" onClick={() => handleAboutScroll('project')}>Projects <span className="underline"></span></a></li>
+            <li><a className="nav-link" href="#contact" onClick={() => handleAboutScroll('contact')}>Contact <span className="underline"></span></a></li>
           </ul>
+
         </div>
       </div>
     </>

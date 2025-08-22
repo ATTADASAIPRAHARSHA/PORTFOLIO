@@ -44,7 +44,6 @@ const Home = () => {
     });
     let model;
 
-    // Load GLTF model
     const loader = new GLTFLoader();
     loader.load(
       './DamagedHelmet.gltf', // Replace with your model path
@@ -76,8 +75,8 @@ const Home = () => {
         const y = (event.clientY / window.innerHeight-0.5)*(Math.PI*.3);
 
         
-        model.rotation.y = x ; 
-        model.rotation.x = y ; 
+        model.rotation.y = x*0.5 ; 
+        model.rotation.x = y*0.5 ; 
       }
     };
 
